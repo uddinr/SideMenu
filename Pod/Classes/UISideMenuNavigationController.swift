@@ -410,10 +410,10 @@ extension UISideMenuNavigationController: SideMenuTransitionControllerDelegate {
         removeSwipeGesture()
         swipeToDismissGesture = addDismissPanGesture(to: view.superview)
 
-        let tapGestureRecognizer = UITapGestureRecognizer()
+        /*let tapGestureRecognizer = UITapGestureRecognizer()
         tapGestureRecognizer.addTarget(self, action: #selector(handleDismissMenuTap(_:)))
         tapGestureRecognizer.cancelsTouchesInView = false
-        view.superview?.addGestureRecognizer(tapGestureRecognizer)
+        view.superview?.addGestureRecognizer(tapGestureRecognizer)*/
     }
 }
 
